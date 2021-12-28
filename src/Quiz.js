@@ -10,7 +10,7 @@ class Quiz extends Component
   }
   render()
   {
-    return<div><QuizQuestion/></div>;
+    return<div><QuizQuestion quiz_question=this.props[this.state -1]/></div>;
   }
 }
 export default Quiz
