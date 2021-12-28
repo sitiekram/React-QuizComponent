@@ -9,8 +9,7 @@ class Quiz extends Component
   }
   render()
   {
-    return<div><div className="QuizQuestion">{quiz_questions.map(({ id, instruction_text }) => (
-        <p key=1>{instruction_text}</p></div></div>;
+    return<div><div className="QuizQuestion">this.state.instruction_text</div></div>;
   }
 }
 export default Quiz
