@@ -5,12 +5,13 @@ class Quiz extends Component
 {
   constructor(props)
   {
-    this.props={quiz_questions}
+    this.props={quizData.quiz_questions}
     this.state={quiz_position:1}
   }
+  const {quiz_question} =this.props[this.state -1]
   render()
   {
-    return<div><QuizQuestion quiz_question=this.props[this.state -1]/></div>;
+    return<div><QuizQuestion quiz_question = {quiz_question}/></div>;
   }
 }
 export default Quiz
