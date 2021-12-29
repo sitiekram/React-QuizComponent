@@ -5,7 +5,7 @@ class Quiz extends Component
 {
   constructor(props)
   {
-    this.props={quizData.quiz_questions}
+    this.props={quiz_questions}
     this.state={quiz_position:1}
   }
   render()
